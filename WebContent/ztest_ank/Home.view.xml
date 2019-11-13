@@ -5,6 +5,7 @@
 		<content>
 		<Button
 		id="helloButton"
+		type="Emphasized"
 		text="press Here"
 		icon="sap-icon://sap-ui5"
 		press="onPress"
