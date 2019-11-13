@@ -8,6 +8,8 @@ sap.ui.define([
 		"use strict";
 		return Controller.extend( "ztest_ank.home", {
 			onPress: function ( ) {
+				var butt = $("#idHome1--helloButton--BDI--content");
+				$("#idHome1--helloButton-BDI-content").html('ddhefddfgre');
 				MessageToast.show("working");
 			}
 			
